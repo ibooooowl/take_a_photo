@@ -1,0 +1,5 @@
+<launch>
+  <node name="image_subscriber_node" pkg="take_a_photo" type="take_a_photo_sub" output="screen">
+    <remap from="/camera/color/image_raw" to="/camera/color/image_raw" />
+  </node>
+</launch>

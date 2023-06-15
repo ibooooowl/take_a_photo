@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>take_a_photo</name>
+    <version>0.0.1</version>
+    <description>Take a photo by camera</description>
+    <maintainer email="wenlinzhang_a@163.com">Wenlin ZHANG</maintainer>
+    <license>Apache 2.0</license>
+
+
+    <author email="wenlinzhang_a@163.com">Wenlin ZHANG</author>
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>message_generation</build_depend>
+    <depend>cv_bridge</depend>
+    <depend>genmsg</depend>
+    <depend>roscpp</depend>
+    <depend>sensor_msgs</depend>
+    <depend>std_msgs</depend>
+    <depend>message_runtime</depend>
+    <depend>librealsense2</depend>
+
+
+
+
+
+</package>

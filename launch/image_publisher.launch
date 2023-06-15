@@ -1,0 +1,4 @@
+<launch>
+  <node name="image_publisher_node" pkg="take_a_photo" type="take_a_photo_pub" output="screen">
+  </node>
+</launch>
